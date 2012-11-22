@@ -15,7 +15,7 @@ public class Controller {
     public static HashSet<NodeFoaf> setNodes;
     public static HashSet<Edge> setEdges;
     public static void main(String[] args) throws IOException {
-        Iterator<File> it = FileUtils.iterateFiles(new File("D:\\Docs Pro Clement\\Dropbox\\eHG workshop november\\foafCrawler\\"), null, false);
+        Iterator<File> it = FileUtils.iterateFiles(new File("foafCrawler\\"), null, false);
         PageReader pr;
         setNodes = new HashSet();
         setEdges = new HashSet();

@@ -61,7 +61,7 @@ public class GexfWriter {
 
 
         StaxGraphWriter graphWriter = new StaxGraphWriter();
-        File f = new File("d://static_graph_sample.gexf");
+        File f = new File("foafCrawler//static_graph_sample.gexf");
         Writer out;
 
 
